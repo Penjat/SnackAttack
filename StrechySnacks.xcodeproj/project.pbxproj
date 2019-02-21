@@ -13,6 +13,8 @@
 		0B60172E221E39AB0078EE5A /* StrechySnacks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B60172C221E39AB0078EE5A /* StrechySnacks.xcdatamodeld */; };
 		0B601730221E39AB0078EE5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B60172F221E39AB0078EE5A /* Assets.xcassets */; };
 		0B601733221E39AB0078EE5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B601731221E39AB0078EE5A /* LaunchScreen.storyboard */; };
+		0B60173B221E62220078EE5A /* Snack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B60173A221E62220078EE5A /* Snack.swift */; };
+		0B60173D221E63AE0078EE5A /* ViewController+TableViewDelegateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B60173C221E63AE0078EE5A /* ViewController+TableViewDelegateData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0B60172F221E39AB0078EE5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B601732221E39AB0078EE5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B601734221E39AB0078EE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B60173A221E62220078EE5A /* Snack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snack.swift; sourceTree = "<group>"; };
+		0B60173C221E63AE0078EE5A /* ViewController+TableViewDelegateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TableViewDelegateData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				0B601725221E39AB0078EE5A /* AppDelegate.swift */,
 				0B601727221E39AB0078EE5A /* ViewController.swift */,
+				0B60173A221E62220078EE5A /* Snack.swift */,
 				0B601729221E39AB0078EE5A /* Main.storyboard */,
+				0B60173C221E63AE0078EE5A /* ViewController+TableViewDelegateData.swift */,
 				0B60172F221E39AB0078EE5A /* Assets.xcassets */,
 				0B601731221E39AB0078EE5A /* LaunchScreen.storyboard */,
 				0B601734221E39AB0078EE5A /* Info.plist */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B60172E221E39AB0078EE5A /* StrechySnacks.xcdatamodeld in Sources */,
+				0B60173D221E63AE0078EE5A /* ViewController+TableViewDelegateData.swift in Sources */,
 				0B601728221E39AB0078EE5A /* ViewController.swift in Sources */,
+				0B60173B221E62220078EE5A /* Snack.swift in Sources */,
 				0B601726221E39AB0078EE5A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
